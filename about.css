@@ -1,0 +1,372 @@
+* {
+    font-family: "Manrope", sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .containerr {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 236, 238);
+    width: 100%;
+    align-items: center;
+  
+    
+  }
+  
+  i {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  p {
+    display: inline;
+  }
+  
+  .right_container,
+  .left_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 8px;
+  }
+  
+  .middle_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+  }
+  
+  .nav-bar {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    float: left;
+  }
+  
+  .menu ul {
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+  }
+  
+  .menu ul li a {
+    padding: 22px;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+  
+    color: black;
+  }
+  
+  .search-container {
+    display: flex;
+  }
+  
+  .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .iconslar {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 8px;
+    padding: 8px;
+  }
+ 
+  
+  
+  .nav-bar {
+    position: relative;
+  
+    width: 100%;
+  }
+  
+ 
+  
+ 
+  
+  .almost {
+    font-size: 23px;
+  }
+  
+  .imagevv {
+    position: relative;
+  
+    z-index: 999;
+  }
+  
+ 
+  
+
+  
+  select{
+
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    margin: 7px;
+    padding: 5px;
+   
+   
+  }
+
+  .obsi{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+  
+  }
+
+  .aboutus{
+
+    color: goldenrod;
+    letter-spacing: 3px;
+    font-size: 24px;
+    
+    
+  }
+
+  .abo{
+transform: translateX(-134px);
+
+
+  }
+
+  .warkala{
+
+    color: black;
+    letter-spacing: 3px;
+    font-size: 64px;
+    font-weight: bolder;
+   
+  }
+
+  .awark{
+    font-family: "Manrope", sans-serif;
+    color: rgb(190, 179, 179);
+    font-size: 18px;
+  }
+
+  .waka{
+
+    margin-top: -33px;
+  }
+
+  .obsi2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .emin, .rembo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-fluid{
+
+    width: 675px;
+    height: 460px;
+    margin: 33px;
+  }
+  
+
+  .img-fluids{
+
+    width: 475px;
+    height: 660px;
+  }
+
+  .theold{
+
+
+
+    color: goldenrod;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-right: 300px;
+  }
+
+  .hofw{
+
+font-weight: bolder;
+font-size: 64px;
+margin-top: -3px;
+
+  }
+
+  .humblebeguun{
+
+
+    letter-spacing: 5px;
+    font-size: 24px;
+    margin: 50px;
+    color: rgb(194, 178, 178);
+  }
+
+  .humblebegun{
+
+
+    
+    font-size: 18px;
+   margin-right: 17px;
+    color: rgb(194, 178, 178);
+  }
+
+  .violwt{
+
+    margin: 36px;
+  }
+
+  .westart{
+
+    font-weight: bolder;
+    font-size: 33px;
+    margin: 32px;
+  }
+
+  .milestone{
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(236, 230, 221);
+    
+  }
+
+  .qwert{
+
+
+    color: rgb(194, 178, 178);
+    font-size: 18px;
+  }
+
+  .samsa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .qwerty{
+
+    color: black;
+   
+    font-size: 24px;
+  }
+
+  .frank{
+
+    color: goldenrod;
+   
+    font-size: 28px;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+  }
+  
+  .image-box {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+  }
+
+  .winky{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nemo{
+
+    color: goldenrod;
+    font-size: 24px;
+    margin-right: 673px;
+  }
+
+
+  .nemo1{
+
+    color: black;
+    font-size: 45px;
+    margin-right: 673px;
+
+    font-weight: bolder;
+  }
+
+  .qwertv{
+
+    color: rgb(194, 178, 178);
+    font-size: 16px;
+  }
+
+
+ 
